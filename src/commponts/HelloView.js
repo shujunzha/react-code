@@ -49,12 +49,20 @@ class App extends Component{
          return rdit
      }
 }
-
+function AppView(){
+    const num = 12
+    return(
+        <div>
+            {num}
+        </div>
+    )
+}
 function HelloView(){
     return(
         <div>
             <h2>测试</h2>
             <App/>
+            <AppView/>
         </div>
     )
 }

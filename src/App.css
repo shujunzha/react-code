@@ -6,7 +6,19 @@
   height: 40vmin;
   pointer-events: none;
 }
-
+.red-color{
+  color: red;
+}
+li{
+  cursor: pointer;
+}
+th, td{
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+}
+table{
+  border-collapse: collapse;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
