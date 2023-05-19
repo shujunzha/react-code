@@ -1,0 +1,17 @@
+.tab-control{
+    display: flex;
+    /* align-items: center; */
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+.tab-control .tab-name{
+    flex: 1;
+}
+.tab-control .tab-name.active{
+    color: red;
+}
+.tab-control .tab-name.active .tab-list{
+    border-bottom: 2px solid red;
+    padding: 3px;
+}
