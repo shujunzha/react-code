@@ -1,3 +1,5 @@
+/* This is an array of objects representing a list of books. Each book object has properties such as
+id, name, date, price, and count. This array can be exported and used in other parts of the code. */
 const book = [
   {
     id: 1,
