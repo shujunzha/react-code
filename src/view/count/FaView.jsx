@@ -15,7 +15,7 @@ export class FaView extends Component {
     return (
       <div>
         <div>数字：{countNum}</div>
-        <SonView tiele='nahasduhisdghu' faclick={(c)=>{this.facount(c)}}/>
+        <SonView title='nahasduhisdghu' faclick={(c)=>{this.facount(c)}}/>
       </div>
     )
   }
